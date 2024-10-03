@@ -58,3 +58,8 @@ body {
 #stats {
     display: flex;
 }
+
+.ability {
+    margin-left: 5px;
+    border: 3px solid blue;
+}
