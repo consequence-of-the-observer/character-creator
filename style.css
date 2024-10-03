@@ -105,6 +105,8 @@ body {
 #skills {
     margin-left: 10px;
     border: 2px dotted magenta;
+    height: 400px;
+    overflow: scroll;
 }
 
 .section_title {
