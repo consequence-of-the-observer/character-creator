@@ -10,62 +10,125 @@
             Create your Character!
         </header>
 
-        <div id="top">
-                <div id="character_sheet">
-                    <input id="c_name">
-                    <p><b>Character Name</b></p>
+        <div id="sheet">
+            <div id="top">
+                    <div id="character_sheet">
+                        <input id="c_name">
+                        <p><b>Character Name</b></p>
+                    </div>
+                    <div id="info_section">
+                        <div id="upper">
+                            <div class="info_tab" id="c&l">
+                                <input id="class">
+                                <p><b>Class and Level</b></p>
+                            </div>
+
+                            <div class="info_tab" id="background">
+                                <input id="bg">
+                                <p><b>Background</b></p>
+                            </div>
+
+                            <div class="info_tab" id="p_name">
+                                <input id="p_name">
+                                <p><b>Player Name</b></p>
+                            </div>
+                        </div>
+
+                        <div id="lower">
+                            <div class="info_tab" id="race">
+                                <input id="species">
+                                <p><b>Race</b></p>
+                            </div>
+
+                            <div class="info_tab" id="alignment">
+                                <input id="morality">
+                                <p><b>Alignment</b></p>
+                            </div>
+
+                            <div class="info_tab" id="xp">
+                                <input id="exp">
+                                <p><b>Experience Points</b></p>
+                            </div>
+                        </div>
+                    </div>
+                <div>
+
                 </div>
-                <div id="info_section">
-                    <div id="upper">
-                        <div class="info_tab" id="c&l">
-                            <input id="class">
-                            <p><b>Class and Level</b></p>
+            </div>
+            <br>
+            <div id="bottom">
+                <div class="b_section" id="left">
+                    <div id="stats">
+                        <div id="scores">
+                            <div class="ability" id="strength">
+                                <p><b>Strength</b></p>
+                                <div class="score">
+                                    <select class="score_val" id="str"></select>
+                                </div>
+                                <div class="modifier"></div>
+                            </div>
+                            <br>
+                            <div class="ability" id="dexterity">
+                                <p><b>Dexterity</b></p>
+                                <div class="score">
+                                    <select class="score_val" id="dex"></select>
+                                </div>
+                                <div class="modifier"></div>
+                            </div>
+                            <br>
+                            <div class="ability" id="constitution">
+                                <p><b>Constitution</b></p>
+                                <div class="score">
+                                    <select class="score_val" id="con"></select>
+                                </div>
+                                <div class="modifier"></div>
+                            </div>
+                            <br>
+                            <div class="ability" id="intelligence">
+                                <p><b>Intelligence</b></p>
+                                <div class="score">
+                                    <select class="score_val" id="int"></select>
+                                </div>
+                                <div class="modifier"></div>
+                            </div>
+                            <br>
+                            <div class="ability" id="wisdom">
+                                <p><b>Wisdom</b></p>
+                                <div class="score">
+                                    <select class="score_val" id="wis"></select>
+                                </div>
+                                <div class="modifier"></div>
+                            </div>
+                            <br>
+                            <div class="ability" id="charisma">
+                                <p><b>Charisma</b></p>
+                                <div class="score">
+                                    <select class="score_val" id="cha"></select>
+                                </div>
+                                <div class="modifier"></div>
+                            </div>
                         </div>
 
-                        <div class="info_tab" id="background">
-                            <input id="bg">
-                            <p><b>Background</b></p>
-                        </div>
-
-                        <div class="info_tab" id="p_name">
-                            <input id="p_name">
-                            <p><b>Player Name</b></p>
+                        <div id="abilities">
+                            <div id="inspiration"></div>
+                            <div id="proficiency"></div>
+                            <div id="saving_throws"></div>
+                            <div id="skills"></div>
                         </div>
                     </div>
 
-                    <div id="lower">
-                        <div class="info_tab" id="race">
-                            <input id="species">
-                            <p><b>Race</b></p>
-                        </div>
+                    <div id="l_other">
 
-                        <div class="info_tab" id="alignment">
-                            <input id="morality">
-                            <p><b>Alignment</b></p>
-                        </div>
-
-                        <div class="info_tab" id="xp">
-                            <input id="exp">
-                            <p><b>Experience Points</b></p>
-                        </div>
                     </div>
                 </div>
-            <div>
-
-            </div>
-        </div>
-        <br>
-        <div id="bottom">
-            <div id="left">
-
-            </div>
-            <br>
-            <div id="middle">
-
-            </div>
-            <br>
-            <div id="right">
-
+                <br>
+                <div class="b_section" id="middle">
+                    <p>placeholder text</p>
+                </div>
+                <br>
+                <div class="b_section" id="right">
+                    <p>placeholder text</p>
+                </div>
             </div>
         </div>
     </body>
