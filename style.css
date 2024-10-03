@@ -50,7 +50,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
-    margin-right: 200px;
+    margin-right: 100px;
     padding-right: 100px;
     border: 5px solid indigo;
 }
@@ -62,4 +62,22 @@ body {
 .ability {
     margin-left: 5px;
     border: 3px solid blue;
+}
+
+.skill_type {
+    margin-top: 5px;
+    display: flex;
+    margin-left: 10px;
+    border: 1px dotted red;
+    font-size: 10px;
+    width: 150px;
+}
+
+.skill_mod {
+    margin-right: 2px;
+}
+
+#skills {
+    margin-left: 10px;
+    border: 2px dotted magenta;
 }
