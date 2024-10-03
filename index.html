@@ -122,9 +122,49 @@
                         </div>
 
                         <div id="abilities">
-                            <div id="inspiration"></div>
-                            <div id="proficiency"></div>
-                            <div id="saving_throws"></div>
+                            <div id="inspiration">
+                                <p class="section_title"><b>Inspiration</b></p>
+                            </div>
+                            <br>
+                            <div id="proficiency">
+                                <p>0</p>
+                                <p class="section_title"><b>Proficiency Bonus</b></p>
+                            </div>
+                            <br>
+                            <div id="saving_throws">
+                                <div class="skill_type" id="save_str">
+                                    <input type="checkbox" id="str_save_check">
+                                    <p class="skill_mod" id="str_save_mod">0</p>
+                                    <p><b>Strength</b></p>
+                                </div>
+                                <div class="skill_type" id="save_dex">
+                                    <input type="checkbox" id="dex_save_check">
+                                    <p class="skill_mod" id="dex_save_mod">0</p>
+                                    <p><b>Dexterity</b></p>
+                                </div>
+                                <div class="skill_type" id="save_con">
+                                    <input type="checkbox" id="con_save_check">
+                                    <p class="skill_mod" id="con_save_mod">0</p>
+                                    <p><b>Constitution</b></p>
+                                </div>
+                                <div class="skill_type" id="save_int">
+                                    <input type="checkbox" id="int_save_check">
+                                    <p class="skill_mod" id="int_save_mod">0</p>
+                                    <p><b>Intelligence</b></p>
+                                </div>
+                                <div class="skill_type" id="save_wis">
+                                    <input type="checkbox" id="wis_save_check">
+                                    <p class="skill_mod" id="wis_save_mod">0</p>
+                                    <p><b>Wisdom</b></p>
+                                </div>
+                                <div class="skill_type" id="save_cha">
+                                    <input type="checkbox" id="cha_save_check">
+                                    <p class="skill_mod" id="cha_save_mod">0</p>
+                                    <p><b>Charisma</b></p>
+                                </div>
+                                <p class="section_title"><b>Saving Throws</b></p>
+                            </div>
+                            <br>
                             <div id="skills">
                                 <div class="skill_type" id="acrobatics">
                                     <input type="checkbox" id="acrobatics_check">
@@ -216,7 +256,7 @@
                                     <p class="skill_mod" id="survival_mod">0</p>
                                     <p><b>Survival</b> (Wis)</p>
                                 </div>
-                                <p><b>Skills</b></p>
+                                <p class="section_title"><b>Skills</b></p>
                             </div>
                         </div>
                     </div>
@@ -224,9 +264,12 @@
                     <div id="l_other">
                         <div id="passive">
                             <p></p>
-                            <p><b>Passive Wisdom (perception)</b></p>
+                            <p class="section_title"><b>Passive Wisdom (perception)</b></p>
                         </div>
-                        <div id="prof_languages"></div>
+                        <div id="prof_languages">
+                            <input style="height:200px;font-size:14pt;margin-left:5px;">
+                            <p class="section_title"><b>Other Proficiencies and Languagues </b></p>
+                        </div>
                     </div>
                 </div>
                 <br>

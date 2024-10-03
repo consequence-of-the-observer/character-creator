@@ -60,6 +60,7 @@ body {
 }
 
 .ability {
+    margin-top: 30px;
     margin-left: 5px;
     border: 3px solid blue;
 }
@@ -77,7 +78,31 @@ body {
     margin-right: 2px;
 }
 
+#inspiration {
+    margin-top: 5px;
+    margin-left: 10px;
+    border: 2px dotted magenta;
+}
+
+#proficiency {
+    margin-left: 10px;
+    border: 2px dotted magenta;
+    
+    p {
+        margin-left: 5px;
+    }
+}
+
+#saving_throws {
+    margin-left: 10px;
+    border: 2px dotted magenta;
+}
+
 #skills {
     margin-left: 10px;
     border: 2px dotted magenta;
+}
+
+.section_title {
+    margin-left: 5px;
 }
